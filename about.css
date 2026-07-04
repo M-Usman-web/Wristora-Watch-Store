@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(22, 196, 124);
+  color: #333; /* Text color for better readability */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 0; /* Removed padding to ensure full background coverage */
+}
+
+.about-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 20px; /* Moved padding here for content spacing */
+}
+
+.about-img {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.about-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.about-text h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.about-text p {
+  font-size: 17px;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}

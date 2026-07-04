@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watch Store</title>
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+  <header>
+    <h1>Watch Store</h1>
+    <button id="cart-button">Cart (<span id="cart-count">0</span>)</button>
+  </header>
+
+  <div class="products">
+    <div class="product" data-name="Classic Watch" data-price="199">
+      <img src="watch1.jpg" alt="Classic Watch">
+      <h3>Classic Watch</h3>
+      <p>£199</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" data-name="Sport Watch" data-price="249">
+      <img src="watch2.jpg" alt="Sport Watch">
+      <h3>Sport Watch</h3>
+      <p>£249</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+
+  <div id="cart" class="cart hidden">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <p>Total: £<span id="total-price">0</span></p>
+    <button id="checkout">Place Order</button>
+    <button id="close-cart">Close</button>
+  </div>
+
+  <script src="cart.js"></script>
+</body>
+</html>

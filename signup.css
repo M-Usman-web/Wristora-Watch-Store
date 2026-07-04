@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(um.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.signup-box{
+ 
+        width: 415px;
+        height: 600px;
+        background: linear-gradient(to up, rgba(255, 255, 255, 0.411), black);
+        border: 2px solid rgba(255, 255, 255, .5);
+        border-radius: 20px;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        box-shadow: 0 0 30px rgba(0, 0, 0.5);
+       
+
+}
+h2{
+    text-align: center;
+    padding: 15px 0px 0px 10px;
+}
+form{
+    width: 300px;
+    margin-left: 25px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+}
+form input{
+    background:transparent;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 3px 3px  rgba(0, 0, 0.5);
+    padding: 10px;
+    width: 120%;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    display: flex;
+}
+button{
+    margin-top: 20px;
+    background:#fff;
+    border: none;
+        outline: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.5em;
+        color: black;
+        font-weight: 500;
+        height: 40px;
+        width: 360px;
+}
+p{
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+  
+}
+.para-2{
+    color:#fff;
+    font-weight: 700;
+}
+a{
+    font-size: .9em;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    margin: 20px 0 10px;
+}

@@ -1,0 +1,115 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  /* Body with background */
+  body {
+    background: url('yel.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo-img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-right: 10px; 
+    background-color: transparent; /* ensure transparent background */
+  }
+  .logo {
+    display: flex;
+    -webkit-backdrop-filter: blur(5px); /* Safari support */
+    backdrop-filter: blur(5px); /* Optional glass effect */
+    align-items: center;
+    padding-left: 20px;
+  }
+  
+  /* Header */
+  .header {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  .nav-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+ 
+  
+  /* Login form */
+  .login-container {
+    margin-top: 50px;
+    width: 350px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.15);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    color: white;
+    text-align: center;
+  }
+  
+  .input-group {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Options (remember + forget) */
+  .options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+  }
+  .options a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Button */
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Register link */
+  .register-text {
+    margin-top: 15px;
+    font-size: 0.9em;
+  }
+  .register-text a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
